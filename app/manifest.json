@@ -20,12 +20,14 @@
         "<all_urls>"
       ],
       "js": [
+        "beforeunload.js",
         "inject.js"
       ],
-      "run_at": "document_end",
+      "run_at": "document_start",
       "css": [
         "styles/main.css"
-      ]
+      ],
+      "all_frames": true
     }
   ],
   "web_accessible_resources": [
